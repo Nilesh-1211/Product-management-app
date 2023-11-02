@@ -88,7 +88,7 @@ const ProductList =()=>{
                     <button className="delete-button" onClick={()=>deleteProduct(item._id)}>Delete</button>
                     <Link className="update-link" to={"/update/"+item._id}>Update</Link>
                 </li>)}
-            </ul>
+            </ul> 
             )
             :<h4>No product found.</h4>
         }
